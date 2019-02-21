@@ -12,6 +12,7 @@ public class Main {
                 + " base area=" + c1.getBaseArea()
                 + "surface area=" + c1.getArea()
                 + " volume=" + c1.getVolume());
+        System.out.println(c1.toString());
 
         // Declare and allocate a new instance of cylinder
         //   specifying height, with default color and radius
@@ -22,6 +23,7 @@ public class Main {
                 + " base area=" + c2.getBaseArea()
                 + "surface area=" + c2.getArea()
                 + " volume=" + c2.getVolume());
+        System.out.println(c2.toString());
 
         // Declare and allocate a new instance of cylinder
         //   specifying radius and height, with default color
@@ -32,5 +34,6 @@ public class Main {
                 + " base area=" + c3.getBaseArea()
                 + "surface area=" + c3.getArea()
                 + " volume=" + c3.getVolume());
+        System.out.println(c3.toString());
     }
 }
